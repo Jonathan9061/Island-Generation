@@ -123,6 +123,51 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &378356077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378356078}
+  - component: {fileID: 378356079}
+  m_Layer: 0
+  m_Name: CameraRotator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &378356078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378356077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 963194228}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &378356079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378356077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee85be9be58dd2a458b01d3c672c405f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.05
 --- !u!1 &427649001
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,11 +258,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427649001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.05, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalScale: {x: 100, y: 10, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -310,7 +355,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -388,13 +433,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.30016994, y: -0, z: -0, w: 0.9538858}
+  m_LocalPosition: {x: 0, y: 7.95, z: -10.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378356078}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 34.936, y: 0, z: 0}
 --- !u!1 &1395478656
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,19 +470,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Islands:
-  - {fileID: 919132149155446097, guid: c3161b3375f720b4b8a86977ed8daac7, type: 3}
-  - {fileID: 919132149155446097, guid: e2c0208636a46af4287884860760496a, type: 3}
+  - {fileID: 6321580386880195249, guid: f528aebfb34b0644d8ac4b2b7cad4205, type: 3}
+  - {fileID: 739092124425940389, guid: cef319d3a37ca664fa9801822301979d, type: 3}
   Mountains:
-  - {fileID: 919132149155446097, guid: 3b57378ed85b3e34092791bd8d241f29, type: 3}
-  - {fileID: 919132149155446097, guid: 9f7bc7b677dadc14e9402720b458b742, type: 3}
-  - {fileID: 919132149155446097, guid: a0bd1b2632a401c4694d32a46da1b8ca, type: 3}
-  - {fileID: 919132149155446097, guid: ade4c8d92eb666542966bcb2348a870d, type: 3}
+  - {fileID: 7032282242685196937, guid: f53eff4c4eade494c9b3390f6d1a8b38, type: 3}
+  - {fileID: 8789799303844151798, guid: f845b7d8c551d7d488257b7028253d5d, type: 3}
+  - {fileID: 8694837126658041621, guid: e096b4daae5fea343af5afc9bf29ba5f, type: 3}
+  - {fileID: 903325307603362449, guid: fda02b7f32dbf5b428900fe11030b88a, type: 3}
   IslandVals: {x: 2, y: 20}
-  MountainVals: {x: 0, y: 0}
-  MinMaxRot: {x: -180, y: 180}
-  MinMaxSize: {x: 0.5, y: 2}
-  MinMaxSizeVariation: {x: -0.2, y: 0.2}
-  MaxPosition: {x: 4, y: 4}
+  MountainVals: {x: 1, y: 10}
+  IMinMaxRot: {x: -180, y: 180}
+  IMinMaxSize: {x: 0.3, y: 3}
+  IMinMaxSizeVariation: {x: -0.5, y: 0.5}
+  IMaxPosition: {x: 4, y: 4}
+  MMinMaxRot: {x: -180, y: 180}
+  MMinMaxSize: {x: 0.3, y: 8}
+  MMinMaxSizeVariation: {x: -0.4, y: 0.4}
+  MMaxPosition: {x: 5, y: 5}
 --- !u!4 &1395478658
 Transform:
   m_ObjectHideFlags: 0
@@ -450,5 +499,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
