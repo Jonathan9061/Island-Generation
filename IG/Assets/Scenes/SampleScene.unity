@@ -472,11 +472,14 @@ MonoBehaviour:
   Islands:
   - {fileID: 6321580386880195249, guid: f528aebfb34b0644d8ac4b2b7cad4205, type: 3}
   - {fileID: 739092124425940389, guid: cef319d3a37ca664fa9801822301979d, type: 3}
+  - {fileID: 8447007057368282558, guid: 281bd9c3512c94a4aa920547d13fc9df, type: 3}
+  - {fileID: 7205337507744928153, guid: 2af8ff28aa5c84040834f768ca6f82b0, type: 3}
   Mountains:
   - {fileID: 7032282242685196937, guid: f53eff4c4eade494c9b3390f6d1a8b38, type: 3}
   - {fileID: 8789799303844151798, guid: f845b7d8c551d7d488257b7028253d5d, type: 3}
   - {fileID: 8694837126658041621, guid: e096b4daae5fea343af5afc9bf29ba5f, type: 3}
   - {fileID: 903325307603362449, guid: fda02b7f32dbf5b428900fe11030b88a, type: 3}
+  - {fileID: 7837255513268663174, guid: 6b0a3c028bb5f7440aa174e636b0f2b4, type: 3}
   IslandVals: {x: 2, y: 20}
   MountainVals: {x: 1, y: 10}
   IMinMaxRot: {x: -180, y: 180}
